@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>trefex@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Trefex</authorUrl>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<description>Show social profile icons with links to social profiles</description>
 	<files>
 		<filename module="mod_socialicons">mod_socialicons.php</filename>
@@ -18,10 +18,10 @@
 			<fieldset name="basic">
 				<field name="&lt;b&gt;General Settings:&lt;/b&gt;" type="spacer" />
 				
-				<field name="facebook" type="text" default="" label="Facebook" description="Insert your facebook page link" />
-				<field name="twitter" type="text" default="" label="Twitter" description="Insert your Tacebook account" />	
-				<field name="google" type="text" default="" label="Google+" description="Insert your Google+ account" />
-				<field name="github" type="text" default="" label="GitHub" description="Insert your GitHub account" />
+				<field name="facebook" type="text" default="" label="Facebook" description="Insert your facebook page link (full link)" />
+				<field name="twitter" type="text" default="" label="Twitter" description="Insert your Twitter account (name without @)" />	
+				<field name="google" type="text" default="" label="Google+" description="Insert your Google+ account (only name, without +)" />
+				<field name="github" type="text" default="" label="GitHub" description="Insert your GitHub account (only acocunt name)" />
 			</fieldset>
 		</fields>
 	</config>
