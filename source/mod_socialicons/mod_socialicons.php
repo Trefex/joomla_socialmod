@@ -3,7 +3,7 @@
 * Author:	Omar Muhammad (admin@omar84.com) | http://omar84.com
 * Author:	Christophe Trefois (trefex@gmail.com) | http://www.trefois.com
 * Module:	Social Icons
-* Version:	0.0.2
+* Version:	0.0.3
 * Date:		29 Nov 2014
 * License:	http://www.gnu.org/copyleft/gpl.html GNU/GPL
 * This module has been modified from the original by Trefex.
@@ -24,19 +24,18 @@ JHtml::_('jquery.framework');
 <div class="social">
 <?php
 if($facebook) 
-	echo '<a href="' echo $facebook; '" class="face" target="_blank"><span></span></a>';
+	echo '<a href="' . $facebook . '" class="face" target="_blank"><span></span></a>';
 	
 if($twitter)	
-	echo '<a href="https://twitter.com/' echo $twitter; '/" class="twitter" target="_blank"><span></span></a>';
+	echo '<a href="https://twitter.com/' . $twitter . '/" class="twitter" target="_blank"><span></span></a>';
 
 if($google)
-	echo '<a href="https://plus.google.com/+' echo $google; '/" class="google" target="_blank"><span></span></a>';
+	echo '<a href="https://plus.google.com/+' . $google . '/" class="google" target="_blank"><span></span></a>';
 	
 if($github)
-	echo '<a href="https://github.com/' echo $github; '/" class="github" target="_blank"><span></span></a>';
+	echo '<a href="https://github.com/' . $github . '/" class="github" target="_blank"><span></span></a>';
 	
-
-	?>
+?>
 </div>
 
 <style type="text/css">
@@ -73,9 +72,6 @@ if($github)
  .social a.github span {
  background-position: -396px -60px;
 }
-
-
-
 </style>
 <script type="text/javascript">
 /* Hover Effect on Social Icons */

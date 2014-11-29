@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>trefex@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Trefex</authorUrl>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<description>Show social profile icons with links to social profiles</description>
 	<files>
 		<filename module="mod_socialicons">mod_socialicons.php</filename>

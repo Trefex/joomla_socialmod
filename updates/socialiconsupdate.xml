@@ -36,4 +36,22 @@
      <maintainerurl>https://github.com/Trefex</maintainerurl>
      <targetplatform name="joomla" version="3.[012345]" />
   </update>
+  
+  <update>
+     <name>Social Icons</name>
+     <description>Show social profile icons with links to social profiles</description>
+     <element>mod_socialicons</element>
+     <type>module</type>
+     <client>site</client>
+     <version>0.0.3</version>
+
+     <infourl title="Social Icons">https://github.com/Trefex/joomla_socialmod</infourl>
+     <downloads>
+        <downloadurl type="full" format="zip">https://github.com/Trefex/joomla_socialmod/raw/master/downloads/mod_socialicons_0.0.3.zip</downloadurl>
+     </downloads>
+
+     <maintainer>Trefex</maintainer>
+     <maintainerurl>https://github.com/Trefex</maintainerurl>
+     <targetplatform name="joomla" version="3.[012345]" />
+  </update>
 </updates>
