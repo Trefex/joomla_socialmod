@@ -18,7 +18,7 @@ See the images below or in the screenshots folder to see the *module* in action
 
 View of the front-end using *protostar* template:
 
-![Alt text](https://raw.githubusercontent.com/Trefex/ "Front end view")
+![Alt text](https://raw.githubusercontent.com/Trefex/joomla_socialmod/master/screenshots/frontend_1.PNG "Front end view")
 
 This work is sourced under GNU / GPL v2.
 
