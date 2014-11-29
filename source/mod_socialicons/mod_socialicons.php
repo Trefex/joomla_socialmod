@@ -1,38 +1,23 @@
 <?php
 /**
-* Author:	Omar Muhammad
-* Email:	admin@omar84.com
-* Website:	http://omar84.com
-* Module:	Simple Image Holder
-* Version:	3.0.0
-* Date:		04/11/2012
+* Author:	Omar Muhammad (admin@omar84.com) | http://omar84.com
+* Author:	Christophe Trefois (trefex@gmail.com) | http://www.trefois.com
+* Module:	Social Icons
+* Version:	0.0.1
+* Date:		29 Nov 2014
 * License:	http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* Copyright:Copyright © 2007 - 2012 Omar's Site. All rights reserved.
+* This module has been modified from the original by Trefex.
 **/
 
 defined('_JEXEC') or die('Restricted access');
 
 $facebook	= $params->get('facebook','');
 $twitter	= $params->get('twitter','');
+$google 	= $params->get('google', '');
+$github 	= $params->get('github', '');
 
-//$rss	= $params->get('rss','');
-
-
-
-?>
-
-<?php
-
+// Insert jQuery framework properly
 JHtml::_('jquery.framework');
-
-?>
-
-<?
-//<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-//<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-?>
-
 
 <div class="social">
 <a href="<?php echo $facebook ;?>" class="face" target="_blank"><span></span></a>
@@ -57,7 +42,7 @@ JHtml::_('jquery.framework');
  left: 0;
  width: 31px;
  height: 64px;
- background-image: url(modules/mod_a_social/spirits.png);
+ background-image: url(https://raw.githubusercontent.com/Trefex/joomla_socialmod/master/source/mod_socialicons/spirits.png);
 }
 
  .social a.face span {

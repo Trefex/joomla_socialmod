@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.3" client="site" method="upgrade">
+	<name>Social Icons</name>
+	<author>Trefex</author>
+	<creationDate>29 Nov 2014</creationDate>
+	<copyright>Trefex 2014</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>trefex@gmail.com</authorEmail>
+	<authorUrl>https://github.com/Trefex</authorUrl>
+	<version>0.0.1</version>
+	<description>Show social profile icons with links to social profiles</description>
+	<files>
+		<filename module="mod_socialicons">mod_socialicons.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="&lt;b&gt;General Settings:&lt;/b&gt;" type="spacer" />
+				
+				<field name="facebook" type="text" default="" label="Facebook" description="Insert your facebook page link" />
+				<field name="twitter" type="text" default="" label="Twitter" description="Insert your Tacebook account" />	
+				<field name="google" type="text" default="" label="Google+" description="Insert your Google+ account" />
+				<field name="github" type="text" default="" label="GitHub" description="Insert your GitHub account" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="Social Icons">https://raw.githubusercontent.com/Trefex/joomla_socialmod/master/updates/socialiconsupdate.xml</server>
+	</updateservers>
+</extension>
